@@ -6,7 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public final class FastestComparator {
-
+    Logger logger = LoggerFactory.getLogger(FastestComparator.class);
     /**
      * Get an int and CustomNumberEntity values as input and compare them as a int numbers
      * Time needed to make the comparison will be between 5 and 10 seconds
